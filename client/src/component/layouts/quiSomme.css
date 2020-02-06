@@ -1,0 +1,63 @@
+.title {
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+    color:#002F36;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    
+}
+h3{
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+    color:#002F36;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    
+
+}
+.somme{
+    padding: 50px;
+}   
+p{
+    color:black;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.text-description {
+width: 48%; 
+text-align: center;
+margin:5px 56px 10px 35px;
+}
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.depannage{
+    text-align: center;
+}
+.Services{
+    display: flex;
+  flex-flow: wrap;
+  
+}
+.cont{
+    display: block;
+    margin-left: 20px;
+}
+.title p{
+    text-align: center;
+    color: orangered;
+    font-style: italic;
+    font-size: large;
+}

@@ -1,0 +1,49 @@
+.mainSection{
+  padding-top: 60px;
+
+}
+#background-video{
+  position: relative;
+}
+.content{
+  position: absolute;
+  left: 600px;
+  top:200px;
+  
+}
+.content h4{
+  color: #002F36;
+  animation-duration: 5s;
+  animation-name:glissement;
+  animation-iteration-count: infinite;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#btnn{
+  width:120px;
+
+  color: #002F36;
+
+}
+#btnn:hover {
+  transition: 0.9s;
+  -webkit-transition: 0.9s;
+  -moz-transition: 0.9s;
+  -ms-transition: 0.9s;
+  -o-transition: 0.9s;
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+} 
+

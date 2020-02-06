@@ -1,0 +1,51 @@
+.left{
+    display:  flex;
+    justify-content:space-between;
+}
+.right{
+    display:  flex;
+   margin-right: 30px;
+}
+.haut{
+    display:  flex;
+
+
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+
+}
+button{
+    background-color: #FA990A;
+    border-radius: 5px;
+    color: #002F36;
+    border-color:#FA990A;
+
+    width: 85px;
+    height: 35px;
+    margin-right: 5px;
+    
+}
+.header{
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+ 
+}
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+}
+.inscription{
+    border-color:#FA990A;
+    background-color: white;
+    border-radius: 5px;
+
+}
